@@ -14,11 +14,11 @@ const navlinks =[
 export default function Header() {
 
     return(
-        <div className={"w-full fixed top-0 left-0 z-40 bg-white xl:h-[171px]"}>
+        <div className={"w-full fixed top-0 left-0 z-40 bg-white xl:h-[150px]"}>
 
         <div className={"xl:w-[1554px] xl:h-[171px]  mx-auto z-50"}>
             <div>
-                <h1 className={"font-playball text-center text-[80px] leading-tight"}>MJ's</h1>
+                <h1 className={"font-playball text-center text-[70px] leading-tight text-[#BE1215] "}>MJ's</h1>
             </div>
             <div className={"flex flex-row justify-between z-40"}>
                 <div className={" ml-10 xl:w-[100px]"}>

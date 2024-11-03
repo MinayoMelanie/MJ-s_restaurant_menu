@@ -1,4 +1,5 @@
-import Image from "next/image"
+import Image from "next/image";
+import React from "react";
 
 export default function HeroesSection() {
     return (
@@ -10,7 +11,7 @@ export default function HeroesSection() {
             </div>
             {/* Top SVG Wave */}
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" className="absolute top-0 left-0 w-full z-10 ">
-                <path fill="#ffffff" fill-opacity="1"
+                <path fill="#ffffff" fillOpacity="1"
                       d="M0,192L80,165.3C160,139,320,85,480,96C640,107,800,181,960,192C1120,203,1280,149,1360,122.7L1440,96L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"
                       ></path>
             </svg>
@@ -25,11 +26,13 @@ export default function HeroesSection() {
                     layout="responsive"
                     className="max-h-[600px] w-[100%] h-auto object-cover rounded-lg shadow-2xl"
                 />
+                <div
+                    className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors duration-300"/>
             </div>
 
             {/* Bottom SVG Wave */}
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" className={"absolute bottom-0 left-0 w-full"}>
-                <path fill="#ffffff" fill-opacity="1"
+                <path fill="#ffffff" fillOpacity="1"
                       d="M0,192L80,165.3C160,139,320,85,480,96C640,107,800,181,960,192C1120,203,1280,149,1360,122.7L1440,96L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
                       ></path>
             </svg>
