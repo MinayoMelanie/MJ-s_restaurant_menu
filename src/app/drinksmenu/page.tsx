@@ -29,7 +29,7 @@ export default function Drinksenu() {
             <section className="relative pt-20 overflow-hidden">
                 <div className="relative h-[30vh] sm:h-[40vh] md:h-[50vh] lg:h-[60vh] xl:h-[70vh]">
                     <Image
-                        src="/Yum.jpg"
+                        src="/drinkbanner.jpg"
                         alt="Menu banner"
                         layout="fill"
                         objectFit="cover"
