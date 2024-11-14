@@ -4,7 +4,7 @@ import Image from "next/image"
 import React from "react";
 
 export default function Drinksenu() {
-    const drinksCategories = [
+    const dessertCategories = [
         {
             title: "Ice cream",
             image: "/icecream.jpg",
@@ -48,7 +48,7 @@ export default function Drinksenu() {
                             Our Menu
                         </h1>
                         <p className="text-white/90 text-sm sm:text-base md:text-lg lg:text-xl max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl mx-auto">
-                        Start Your Day Right: Dive into a Symphony of Flavors with Our Irresistible Breakfast Creations That Will Keep You Energized!
+                        Sweeten Your Day – Dive into Our Irresistible Desserts, Each Bite a Perfect Blend of Bliss and Flavor!
                         </p>
                     </motion.div>
                 </div>
@@ -62,13 +62,13 @@ export default function Drinksenu() {
                     transition={{duration: 0.6}}
                     className="text-center mb-16 "
                 >
-                    <h2 className="text-2xl md:text-3xl font-serif text-[#DC2626] mb-4 ">DRINKS MENU</h2>
+                    <h2 className="text-2xl md:text-3xl font-serif text-[#DC2626] mb-4 ">DESSERT MENU</h2>
                     <div className="h-0.5 w-20 bg-[#DC2626] mx-auto"/>
                 </motion.div>
 
                 {/* Horizontal Layout for Drink Categories */}
                 <div className="flex overflow-x-auto space-x-8">
-                    {drinksCategories.map((category, index) => (
+                    {dessertCategories.map((category, index) => (
                         <motion.div
                             key={category.title}
                             initial={{opacity: 0, y: 20}}
